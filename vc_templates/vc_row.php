@@ -25,8 +25,8 @@ $css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, 'vc_row wpb_row 
 $style = $this->buildStyle( $bg_image, $bg_color, $bg_image_repeat, $font_color, $padding, $margin_bottom );
 ?>
 	<div 
+	<?php if ($itemtype != ''): ?> itemscope <?php endif;?>
 	<?php if ($itemtype != ''): ?> itemtype="<?php echo esc_attr($itemtype);?>" <?php endif;?>
-	<?php if ($itemscope): ?> itemscope <?php endif;?>
 	<?php if ($itemprop != ''): ?> itemprop="<?php echo esc_attr($itemprop);?>" <?php endif;?>
 	class="<?php echo esc_attr( $css_class ); ?><?php if ( $full_width == 'stretch_row_content_no_spaces' ): echo ' vc_row-no-padding'; endif; ?>" <?php if ( ! empty( $full_width ) ) {
 	echo ' data-vc-full-width="true"';
