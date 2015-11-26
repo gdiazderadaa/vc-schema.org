@@ -22,5 +22,5 @@ require_once('vc-schema.org.php');
 
 
 ## License
-Yii2-user is released under the GNU License. See the bundled [LICENSE.md](LICENSE.md)
+Yii2-user is released under the GNU License. See the bundled [LICENSE.md](LICENSE)
 for details.
