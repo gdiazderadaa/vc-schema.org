@@ -1,6 +1,6 @@
 <?php
 /** @var $this WPBakeryShortCode_VC_Row */
-$output = $el_class = $bg_image = $bg_color = $bg_image_repeat = $font_color = $padding = $margin_bottom = $css = $full_width = $itemtype = $itemscope = $itemprop = '';
+$output = $el_class = $bg_image = $bg_color = $bg_image_repeat = $font_color = $padding = $margin_bottom = $css = $full_width = $itemtype = $itemscope = $itemprop = $itemref = $id = '';
 extract( shortcode_atts( array(
 	'el_class' => '',
 	'bg_image' => '',
@@ -13,6 +13,8 @@ extract( shortcode_atts( array(
 	'css' => '',
 	'itemtype' => '',
 	'itemprop' =>'',
+	'itemref' => '',
+	'id' => '',
 ), $atts ) );
 
 // wp_enqueue_style( 'js_composer_front' );
@@ -26,9 +28,11 @@ $style = $this->buildStyle( $bg_image, $bg_color, $bg_image_repeat, $font_color,
 ?>
 	<div 
 	<?php if ($itemtype != ''): ?> itemscope <?php endif;?>
-	<?php if ($itemtype != ''): ?> itemtype="<?php echo esc_attr($itemtype);?>" <?php endif;?>
-	<?php if ($itemprop != ''): ?> itemprop="<?php echo esc_attr($itemprop);?>" <?php endif;?>
-	class="<?php echo esc_attr( $css_class ); ?><?php if ( $full_width == 'stretch_row_content_no_spaces' ): echo ' vc_row-no-padding'; endif; ?>" <?php if ( ! empty( $full_width ) ) {
+	<?php if ($itemtype != ''): ?> itemtype="<?php echo esc_attr( $itemtype ) ;?>" <?php endif;?>
+	<?php if ($itemprop != ''): ?> itemprop="<?php echo esc_attr( $itemprop ) ;?>" <?php endif;?>
+	<?php if ($itemref != ''): ?> itemref="<?php echo esc_attr( $itemref ) ;?>" <?php endif;?>
+	<?php if ($id != ''): ?> id="<?php echo esc_attr( $id ) ;?>" <?php endif;?>
+	class="<?php echo esc_attr( $css_class ) ; ?><?php if ( $full_width == 'stretch_row_content_no_spaces' ): echo ' vc_row-no-padding'; endif; ?>" <?php if ( ! empty( $full_width ) ) {
 	echo ' data-vc-full-width="true"';
 	if ( $full_width == 'stretch_row_content' || $full_width == 'stretch_row_content_no_spaces' ) {
 		echo ' data-vc-stretch-content="true"';
