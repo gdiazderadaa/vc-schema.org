@@ -28,7 +28,7 @@ require_once('vc-schema.org.php');
 
 2. Click on the **+** symbol as you would do to create a new element. The Visual Composer Add Element popup is shown:
 
-![Add new content to page](https://github.com/gdiazderadaa/vc-schema.org/img/add-new-content.png "Add new content to page")
+![Add new content to page](https://github.com/gdiazderadaa/vc-schema.org/blob/master/img/add-new-content.PNG "Add new content to page")
 
 3. Search for **Schema.org Meta Tag** element (it has the VC icon) and click on it. The properties window is displayed:
 
