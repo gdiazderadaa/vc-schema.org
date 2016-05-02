@@ -24,15 +24,15 @@ require_once('vc-schema.org.php');
 
 1. Open a page for edition
 
-![Edit page with VC](https://github.com/gdiazderadaa/vc-schema.org/master/img/page-edit.png "Edit page with VC")
+![Edit page with VC](https://github.com/gdiazderadaa/vc-schema.org/img/page-edit.png "Edit page with VC")
 
 2. Click on the **+** symbol as you would do to create a new element. The Visual Composer Add Element popup is shown:
 
-![Add new content to page](https://github.com/gdiazderadaa/vc-schema.org/master/img/add-new-content.png "Add new content to page")
+![Add new content to page](https://github.com/gdiazderadaa/vc-schema.org/img/add-new-content.png "Add new content to page")
 
 3. Search for **Schema.org Meta Tag** element (it has the VC icon) and click on it. The properties window is displayed:
 
-![vc-chema.org Meta Tag properties](https://github.com/gdiazderadaa/vc-schema.org/master/img/meta-tag.png "vc-chema.org Meta Tag properties")
+![vc-chema.org Meta Tag properties](https://github.com/gdiazderadaa/vc-schema.org/img/meta-tag.png "vc-chema.org Meta Tag properties")
 
 4. Fill in the **itemprop** and **content** attributes and click **Save changes**.
 
@@ -41,15 +41,15 @@ require_once('vc-schema.org.php');
 
 1. Open a page for edition
 
-![Edit page with VC](https://github.com/gdiazderadaa/vc-schema.org/master/img/page-edit.png "Edit page with VC")
+![Edit page with VC](https://github.com/gdiazderadaa/vc-schema.org/img/page-edit.png "Edit page with VC")
 
 2. Click on the **+** symbol as you would do to create a new element. The Visual Composer Add Element popup is shown:
 
-![Add new content to page](https://github.com/gdiazderadaa/vc-schema.org/master/img/add-new-content.png "Add new content to page")
+![Add new content to page](https://github.com/gdiazderadaa/vc-schema.org/img/add-new-content.png "Add new content to page")
 
 3. Search for **Schema.org Link Tag** element (it has the VC icon) and click on it. The properties window is displayed:
 
-![vc-chema.org Link Tag properties](https://github.com/gdiazderadaa/vc-schema.org/master/img/link-tag.png "vc-chema.org Link Tag properties")
+![vc-chema.org Link Tag properties](https://github.com/gdiazderadaa/vc-schema.org/img/link-tag.png "vc-chema.org Link Tag properties")
 
 4. Fill in the **itemprop** and **href** attributes and click **Save changes**.
 
@@ -58,15 +58,15 @@ require_once('vc-schema.org.php');
 
 1. Open a page for edition
 
-![Edit page with VC](https://github.com/gdiazderadaa/vc-schema.org/master/img/page-edit.png "Edit page with VC")
+![Edit page with VC](https://github.com/gdiazderadaa/vc-schema.org/img/page-edit.png "Edit page with VC")
 
 2. Add or edit a content block (either row, column or text block) as you are used to do it and click the brand new tab **Schema.or** that will appear:
 
-![VC row settings](https://github.com/gdiazderadaa/vc-schema.org/master/img/row-settings.png "VC row settings")
+![VC row settings](https://github.com/gdiazderadaa/vc-schema.org/img/row-settings.png "VC row settings")
 
-![VC column settings](https://github.com/gdiazderadaa/vc-schema.org/master/img/column-settings.png "VC column settings")
+![VC column settings](https://github.com/gdiazderadaa/vc-schema.org/img/column-settings.png "VC column settings")
 
-![VC text block settings](https://github.com/gdiazderadaa/vc-schema.org/master/img/text-block-settings.png "VC text block settings")
+![VC text block settings](https://github.com/gdiazderadaa/vc-schema.org/img/text-block-settings.png "VC text block settings")
 
 3. Fill in the desired attributes and click **Save changes** to finish.
 
