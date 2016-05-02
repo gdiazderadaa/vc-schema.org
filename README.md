@@ -22,16 +22,13 @@ require_once('vc-schema.org.php');
 
 ### Schema.org Meta Tag
 
-1. Open a page for edition
-
+1. Open a page for edition:
 ![Edit page with VC](https://github.com/gdiazderadaa/vc-schema.org/blob/master/img/page-edit.PNG "Edit page with VC")
 
 2. Click on the **+** symbol as you would do to create a new element. The Visual Composer Add Element popup is shown:
-
 ![Add new content to page](https://github.com/gdiazderadaa/vc-schema.org/blob/master/img/add-new-content.PNG "Add new content to page")
 
 3. Search for **Schema.org Meta Tag** element (it has the VC icon) and click on it. The properties window is displayed:
-
 ![vc-chema.org Meta Tag properties](https://github.com/gdiazderadaa/vc-schema.org/blob/master/img/meta-tag.PNG "vc-chema.org Meta Tag properties")
 
 4. Fill in the **itemprop** and **content** attributes and click **Save changes**.
@@ -39,16 +36,13 @@ require_once('vc-schema.org.php');
 
 ### Schema.org Link Tag
 
-1. Open a page for edition
-
+1. Open a page for edition:
 ![Edit page with VC](https://github.com/gdiazderadaa/vc-schema.org/blob/master/img/page-edit.PNG "Edit page with VC")
 
 2. Click on the **+** symbol as you would do to create a new element. The Visual Composer Add Element popup is shown:
-
 ![Add new content to page](https://github.com/gdiazderadaa/vc-schema.org/blob/master/img/add-new-content.PNG "Add new content to page")
 
 3. Search for **Schema.org Link Tag** element (it has the VC icon) and click on it. The properties window is displayed:
-
 ![vc-chema.org Link Tag properties](https://github.com/gdiazderadaa/vc-schema.org/blob/master/img/link-tag.PNG "vc-chema.org Link Tag properties")
 
 4. Fill in the **itemprop** and **href** attributes and click **Save changes**.
@@ -57,15 +51,11 @@ require_once('vc-schema.org.php');
 ### Content block new attributes
 
 1. Open a page for edition
-
 ![Edit page with VC](https://github.com/gdiazderadaa/vc-schema.org/blob/master/img/page-edit.PNG "Edit page with VC")
 
 2. Add or edit a content block (either row, column or text block) as you are used to do it and click the brand new tab **Schema.or** that will appear:
-
 ![VC row settings](https://github.com/gdiazderadaa/vc-schema.org/blob/master/img/row-settings.PNG "VC row settings")
-
 ![VC column settings](https://github.com/gdiazderadaa/vc-schema.org/blob/master/img/column-settings.PNG "VC column settings")
-
 ![VC text block settings](https://github.com/gdiazderadaa/vc-schema.org/blob/master/img/text-block-settings.PNG "VC text block settings")
 
 3. Fill in the desired attributes and click **Save changes** to finish.
