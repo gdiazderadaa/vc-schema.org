@@ -1,6 +1,6 @@
 # vc-schema.org
 
-Visual Composer for Wordpress is a really nice plugin to make beautiful layouts in a very visual manner. However, it doesn't allow the user to add attributes to the content blocks, which are replaced by ```<div>`` tags when the html is generated. 
+Visual Composer for Wordpress is a really nice plugin to make beautiful layouts in a very visual manner. However, it doesn't allow the user to add attributes to the content blocks, which are replaced by ``<div>`` tags when the html is generated. 
 
 This lack makes impossible to follow structured data best practices, defined by schema.org:
 "Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond."
@@ -22,18 +22,53 @@ require_once('vc-schema.org.php');
 
 ### Schema.org Meta Tag
 
-Within the Visual Composer Add Element popup, click "Schema.org Meta Tag". You will be prompted to fill in the object property (itemprop) and its value (content). Once entered just click "Save changes" and the metatag will be added.
+1. Open a page for edition
+
+[[https://github.com/username/repository/vc-schema.org/master/img/page-edit.png|alt=page-edit]]
+
+2. Click on the **+** symbol as you would do to create a new element. The Visual Composer Add Element popup is shown:
+
+[[https://github.com/username/repository/vc-schema.org/master/img/add-new-content.png|alt=add-new-content]]
+
+3. Search for **Schema.org Meta Tag** element (it has the VC icon) and click on it. The properties window is displayed:
+
+[[https://github.com/username/repository/vc-schema.org/master/img/meta-tag.png|alt=meta-tag]]
+
+4. Fill in the **itemprop** and **content** attributes and click **Save changes**.
 
 
 ### Schema.org Link Tag
 
-Within the Visual Composer Add Element popup, click "Schema.org Link Tag". You will be prompted to fill in the object property (itemprop) and its value (href). Once entered just click "Save changes" and the metatag will be added.
+1. Open a page for edition
+
+[[https://github.com/username/repository/vc-schema.org/master/img/page-edit.png|alt=page-edit]]
+
+2. Click on the **+** symbol as you would do to create a new element. The Visual Composer Add Element popup is shown:
+
+[[https://github.com/username/repository/vc-schema.org/master/img/add-new-content.png|alt=add-new-content]]
+
+3. Search for **Schema.org Link Tag** element (it has the VC icon) and click on it. The properties window is displayed:
+
+[[https://github.com/username/repository/vc-schema.org/master/img/link-tag.png|alt=link-tag]]
+
+4. Fill in the **itemprop** and **href** attributes and click **Save changes**.
 
 
 ### Content block new attributes
 
-Add or edit a content block (either row, column or text block) as you are used to do it and click the brand new tab "Schema.org" that will appear. Fill in the desired attributes and click "Save changes" to finish.
+1. Open a page for edition
 
+[[https://github.com/username/repository/vc-schema.org/master/img/page-edit.png|alt=page-edit]]
+
+2. Add or edit a content block (either row, column or text block) as you are used to do it and click the brand new tab **Schema.or** that will appear:
+
+[[https://github.com/username/repository/vc-schema.org/master/img/row-settings.png|alt=row-settings]]
+
+[[https://github.com/username/repository/vc-schema.org/master/img/column-settings.png|alt=column-settings]]
+
+[[https://github.com/username/repository/vc-schema.org/master/img/text-block-settings.png|alt=text-block-settings]]
+
+3. Fill in the desired attributes and click **Save changes** to finish.
 
 ## License
 vc-schema.org is released under the GNU License. See the bundled [LICENSE](LICENSE)
