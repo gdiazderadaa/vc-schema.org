@@ -12,7 +12,7 @@ In addition to the extra attributes for the existing content blocks, two new sho
 
 ## Installation steps
 
-1. Download the files to your curren Wordpress theme's folder (e.g: wp-content/themes/mytheme/)
+1. Drop the *vc-schema.org.php* file along with the *vc-templates* folder into your current theme folder (e.g: wp-content/themes/mytheme/)
 2. Edit your functions.php (e.g: wp-content/themes/mytheme/functions.php) and add this line at the end of the file
 ```
 require_once('vc-schema.org.php');
