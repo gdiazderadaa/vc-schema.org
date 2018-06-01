@@ -1,3 +1,5 @@
+###SORRY THIS PLUGIN HAS BEEN DISCONTINUED BY ITS AUTHOR
+
 # vc-schema.org
 
 Visual Composer for Wordpress is a really nice plugin to make beautiful layouts in a very visual manner. However, it doesn't allow the user to add attributes to the content blocks, which are replaced by ``<div>`` tags when the html is generated. 
